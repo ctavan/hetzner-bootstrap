@@ -12,3 +12,5 @@ wget -O /root/.ssh/authorized_keys https://raw.github.com/ctavan/hetzner-bootstr
 # you should keep in mind, that this script is run inside a chrooted
 # envorinment of the freshly installed server, so every change here
 # is a direct change in the new server
+
+echo '64.95.99.203 puppet-private.m6r.eu' >> /etc/hosts
